@@ -17,3 +17,77 @@ msgstr "Створення файлів SEPA для прямого дебету�
 #: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.view_mandate_form
 msgid "Print"
 msgstr "Друк"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields.selection,name:account_payment_sepa_direct_debit.selection__account_payment_lot__sequence_type__fnal
+msgid "Final"
+msgstr "Кінцевий"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_banking_mandate__format
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_payment_line__mandate_format
+msgid "Mandate Format"
+msgstr "Формат мандата"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_payment_lot__mandate_required
+msgid "Mandate Required"
+msgstr "Потрібен мандат"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_payment_line__mandate_state
+msgid "Mandate State"
+msgstr "Статус мандата"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_payment_line__mandate_type
+msgid "Mandate Type"
+msgstr "Тип мандата"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields.selection,name:account_payment_sepa_direct_debit.selection__account_payment_lot__sequence_type__ooff
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "One-Off"
+msgstr "Одноразовий"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_payment_method__pain_version
+msgid "PAIN Version"
+msgstr "Версія PAIN"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model,name:account_payment_sepa_direct_debit.model_account_payment_line
+msgid "Payment Lines"
+msgstr "Рядки платежу"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model,name:account_payment_sepa_direct_debit.model_account_payment_order
+msgid "Payment/Debit Order"
+msgstr "Платіжне/дебетове доручення"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "Recurrent"
+msgstr "Повторюваний"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields.selection,name:account_payment_sepa_direct_debit.selection__account_payment_lot__sequence_type__rcur
+msgid "Recurring"
+msgstr "Повторюваний"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_payment_method_line__sepa_creditor_identifier
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_res_company__sepa_creditor_identifier
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_res_config_settings__sepa_creditor_identifier
+msgid "SEPA Creditor Identifier"
+msgstr "Ідентифікатор кредитора SEPA"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.actions.report,name:account_payment_sepa_direct_debit.report_sepa_direct_debit_mandate
+msgid "SEPA Mandate"
+msgstr "Мандат SEPA"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_payment_lot__sequence_type
+msgid "Sequence Type"
+msgstr "Тип послідовності"

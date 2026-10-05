@@ -12,3 +12,13 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_account_payment_mandate_sale
 msgid "Adds mandates on sale orders"
 msgstr "Додає мандати до замовлень на продаж"
+
+#. module: account_payment_mandate_sale
+#: model:ir.model.fields,field_description:account_payment_mandate_sale.field_sale_order__mandate_id
+msgid "Direct Debit Mandate"
+msgstr "Мандат прямого дебету"
+
+#. module: account_payment_mandate_sale
+#: model:ir.model.fields,field_description:account_payment_mandate_sale.field_sale_order__mandate_required
+msgid "Mandate Required"
+msgstr "Потрібен мандат"

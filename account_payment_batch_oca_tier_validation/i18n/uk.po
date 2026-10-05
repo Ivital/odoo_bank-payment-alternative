@@ -53,3 +53,33 @@ msgstr "Підтверджено"
 #: model:ir.model.fields,field_description:account_payment_batch_oca_tier_validation.field_account_payment_order__review_ids
 msgid "Validations"
 msgstr "Погодження"
+
+#. module: account_payment_batch_oca_tier_validation
+#: model:ir.model.fields,field_description:account_payment_batch_oca_tier_validation.field_account_payment_order__need_validation
+msgid "Need Validation"
+msgstr "Потрібна перевірка"
+
+#. module: account_payment_batch_oca_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca_tier_validation.account_payment_order_search_view
+msgid "Needs my Review"
+msgstr "Потребує мого перегляду"
+
+#. module: account_payment_batch_oca_tier_validation
+#: model:ir.model.fields,field_description:account_payment_batch_oca_tier_validation.field_account_payment_order__rejected_message
+msgid "Rejected Message"
+msgstr "Відхилене повідомлення"
+
+#. module: account_payment_batch_oca_tier_validation
+#: model:ir.model.fields,field_description:account_payment_batch_oca_tier_validation.field_account_payment_order__to_validate_message
+msgid "To Validate Message"
+msgstr "Повідомлення для перевірки"
+
+#. module: account_payment_batch_oca_tier_validation
+#: model:ir.model.fields,field_description:account_payment_batch_oca_tier_validation.field_account_payment_order__validated_message
+msgid "Validated Message"
+msgstr "Перевірене повідомлення"
+
+#. module: account_payment_batch_oca_tier_validation
+#: model:ir.model.fields,field_description:account_payment_batch_oca_tier_validation.field_account_payment_order__validation_status
+msgid "Validation Status"
+msgstr "Статус перевірки"

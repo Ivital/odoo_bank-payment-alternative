@@ -265,3 +265,419 @@ msgstr "Цільові переміщення"
 #: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_tree
 msgid "Transactions"
 msgstr "Транзакції"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.print_account_payment_order_document
+msgid "<strong>Description</strong>"
+msgstr "<strong>Опис</strong>"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.print_account_payment_order_document
+msgid "<strong>Partner</strong>"
+msgstr "<strong>Контрагент</strong>"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.print_account_payment_order_document
+msgid "<strong>Total</strong>"
+msgstr "<strong>Разом</strong>"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_line_create__target_move__posted
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_method_line__default_target_move__posted
+msgid "All Posted Entries"
+msgstr "Усі проведені записи"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__allowed_journal_ids
+msgid "Allowed journals"
+msgstr "Дозволені журнали"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line__amount_company_currency
+msgid "Amount in Company Currency"
+msgstr "Сума у валюті компанії"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_line_create__payment_mode__any
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_method_line__default_payment_mode__any
+msgid "Any"
+msgstr "Будь-який"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_form
+msgid "Back to Draft"
+msgstr "Повернути в чернетку"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line__bank_account_required
+msgid "Bank Account Required"
+msgstr "Потрібен банківський рахунок"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_order__state__cancel
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_line_create_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_form
+msgid "Cancel Payments"
+msgstr "Скасувати платежі"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_form
+msgid "Confirm Payments"
+msgstr "Підтвердити платежі"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.print_account_payment_order_document
+msgid "Debit Order #"
+msgstr "Дебетове доручення №"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_order__state__draft
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_search
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_method_line__default_date_type__due
+msgid "Due"
+msgstr "До сплати"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_lot__date
+msgid "Execution Date"
+msgstr "Дата виконання"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_order__state__generated
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_search
+msgid "File Generated"
+msgstr "Файл згенеровано"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__date_generated
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_search
+msgid "File Generation Date"
+msgstr "Дата генерації файлу"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__date_uploaded
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_search
+msgid "File Upload Date"
+msgstr "Дата завантаження файлу"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_order__state__uploaded
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_search
+msgid "File Uploaded"
+msgstr "Файл завантажено"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_method_line__default_date_prefered__fixed
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_order__date_prefered__fixed
+msgid "Fixed Date"
+msgstr "Фіксована дата"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_line__communication_type__free
+msgid "Free"
+msgstr "Безкоштовно"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_move__reference_type__free
+msgid "Free Reference"
+msgstr "Вільне посилання"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_method_line__default_date_prefered__now
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_order__date_prefered__now
+msgid "Immediately"
+msgstr "Негайно"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line_create__move_line_ids
+msgid "Journal Items"
+msgstr "Проведення журналу"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line_create__journal_ids
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_method_line__default_journal_ids
+msgid "Journals Filter"
+msgstr "Фільтр журналів"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_method_line__mail_partner_policy__last_payment
+msgid "Last Payment"
+msgstr "Останній платіж"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line__write_uid
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line_create__write_uid
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_lot__write_uid
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line__write_date
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line_create__write_date
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_lot__write_date
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__bank_account_link
+msgid "Link to Bank Account"
+msgstr "Посилання на банківський рахунок"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line_create__invoice
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_method_line__default_invoice
+msgid "Linked to an Invoice or Refund"
+msgstr "Пов'язано з рахунком або поверненням"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_form
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_tree
+msgid "Lots"
+msgstr "Партії"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid "New"
+msgstr "Новий"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line__mail_notif
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_method_line__mail_notif
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__mail_notif
+msgid "Notify by Email"
+msgstr "Сповістити електронною поштою"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__payment_lot_count
+msgid "Number of Lots"
+msgstr "Кількість лотів"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_method_line__mail_partner_policy__parent
+msgid "Parent Partner"
+msgstr "Батьківський партнер"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line__mail_notif_partner_id
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_method_line__mail_partner_policy
+msgid "Partner to Notify"
+msgstr "Контрагент для сповіщення"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_lot__payment_count
+msgid "Payment Count"
+msgstr "Кількість платежів"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__payment_file_datas
+msgid "Payment File"
+msgstr "Платіжний файл"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment__payment_line_ids
+msgid "Payment Line"
+msgstr "Рядок платежу"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_bank_statement_line__payment_line_count
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_move__payment_line_count
+msgid "Payment Line Count"
+msgstr "Кількість рядків платежу"
+
+#. module: account_payment_batch_oca
+#: model:ir.actions.act_window,name:account_payment_batch_oca.account_payment_line_action
+#: model:ir.model,name:account_payment_batch_oca.model_account_payment_line
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_move_line__payment_line_ids
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_line_form
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.view_move_form
+msgid "Payment Lines"
+msgstr "Рядки платежу"
+
+#. module: account_payment_batch_oca
+#: model:ir.actions.act_window,name:account_payment_batch_oca.account_payment_lot_action
+msgid "Payment Lots"
+msgstr "Партії платежів"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line_create__payment_mode
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__payment_method_line_id
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_search
+msgid "Payment Method"
+msgstr "Спосіб оплати"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment__payment_order_id
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line__order_id
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line_create__order_id
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_lot__order_id
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_lot_search
+msgid "Payment Order"
+msgstr "Платіжне доручення"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.print_account_payment_order_document
+msgid "Payment Order #"
+msgstr "Платіжне доручення №"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line__name
+msgid "Payment Reference"
+msgstr "Призначення платежу"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__payment_ids
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_order_form
+msgid "Payment Transactions"
+msgstr "Платіжні транзакції"
+
+#. module: account_payment_batch_oca
+#: model:ir.actions.report,name:account_payment_batch_oca.action_print_payment_order
+#: model:ir.model,name:account_payment_batch_oca.model_account_payment_order
+msgid "Payment/Debit Order"
+msgstr "Платіжне/дебетове доручення"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_bank_statement_line__reference_type
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_move__reference_type
+msgid "Reference Type"
+msgstr "Тип посилання"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_line_create__payment_mode__same
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_method_line__default_payment_mode__same
+msgid "Same"
+msgstr "Те саме"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_line_create__payment_mode__same_or_null
+msgid "Same or Empty"
+msgstr "Те саме або порожнє"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_method_line__default_payment_mode__same_or_null
+msgid "Same or empty"
+msgstr "Те саме або порожнє"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_bank_statement_line__payment_order_ok
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_move__payment_order_ok
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_method_line__payment_order_ok
+msgid "Selectable on Payment Orders"
+msgstr "Можна вибирати у платіжних дорученнях"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields.selection,name:account_payment_batch_oca.selection__account_payment_line__communication_type__structured
+msgid "Structured"
+msgstr "Структурований"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__payment_method_id
+msgid "Technical Payment Method"
+msgstr "Технічний спосіб оплати"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__total_company_currency
+msgid "Total Company Currency"
+msgstr "Разом у валюті компанії"
+
+#. module: account_payment_batch_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca.account_payment_line_create_form
+msgid "Total Residual"
+msgstr "Загальний залишок"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_line_create__date_type
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_method_line__default_date_type
+msgid "Type of Date Filter"
+msgstr "Тип фільтра дати"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,field_description:account_payment_batch_oca.field_account_payment_order__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"

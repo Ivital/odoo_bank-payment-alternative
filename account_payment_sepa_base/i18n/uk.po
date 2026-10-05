@@ -93,3 +93,448 @@ msgstr "Призначення"
 #: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__subs
 msgid "Subscription"
 msgstr "Підписка"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__adva
+msgid "Advance Payment"
+msgstr "Авансовий платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__airb
+msgid "Air"
+msgstr "Повітря"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__almy
+msgid "Alimony Payment"
+msgstr "Аліментний платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__anni
+msgid "Annuity"
+msgstr "Ануїтет"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_order__batch_booking
+msgid "Batch Booking"
+msgstr "Пакетне бронювання"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__bonu
+msgid "Bonus Payment"
+msgstr "Бонусна виплата"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__bonu
+msgid "Bonus Payment."
+msgstr "Бонусний платіж."
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_order__charge_bearer__debt
+msgid "Borne by Debtor"
+msgstr "За рахунок боржника"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__cbtv
+msgid "Cable TV Bill"
+msgstr "Рахунок за кабельне ТБ"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__cfee
+msgid "Cancellation Fee"
+msgstr "Комісія за скасування"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__cash
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__cash
+msgid "Cash Management Transfer"
+msgstr "Переміщення керування коштами"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_line__category_purpose
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_lot__category_purpose
+msgid "Category Purpose"
+msgstr "Призначення категорії"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_order__charge_bearer
+msgid "Charge Bearer"
+msgstr "Платник комісії"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__char
+msgid "Charity Payment"
+msgstr "Благодійний платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__bech
+msgid "Child Benefit"
+msgstr "Допомога на дитину"
+
+#. module: account_payment_sepa_base
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_base.account_pain_regulatory_reporting_search
+msgid "Code or Name"
+msgstr "Код або назва"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__comm
+msgid "Commission"
+msgstr "Комісія"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_line__communication
+msgid "Communication"
+msgstr "Комунікація"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__cpyr
+msgid "Copyright"
+msgstr "Авторське право"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__ccrd
+msgid "Credit Card Payment"
+msgstr "Оплата кредитною карткою"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__dnts
+msgid "Dental Services"
+msgstr "Стоматологічні послуги"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__deri
+msgid "Derivatives"
+msgstr "Похідні"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__divi
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__divd
+msgid "Dividend"
+msgstr "Дивіденд"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__elec
+msgid "Electricity Bill"
+msgstr "Рахунок за електроенергію"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__enrg
+msgid "Energies"
+msgstr "Енергії"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__estx
+msgid "Estate Tax"
+msgstr "Податок на нерухомість"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__fcol
+msgid "Fee Collection"
+msgstr "Стягнення комісії"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__ferb
+msgid "Ferry"
+msgstr "Пором"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__frex
+msgid "Foreign Exchange"
+msgstr "Обмін валюти"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__gasb
+msgid "Gas Bill"
+msgstr "Рахунок за газ"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__govt
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__govt
+msgid "Government Payment"
+msgstr "Державний платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__hlti
+msgid "Health Insurance"
+msgstr "Медичне страхування"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__hedg
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__hedg
+msgid "Hedging"
+msgstr "Хеджування"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__priority__high
+msgid "High"
+msgstr "Високий"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__hltc
+msgid "Home Health Care"
+msgstr "Медична допомога вдома"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__hspc
+msgid "Hospital Care"
+msgstr "Медичне обслуговування"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__hstx
+msgid "Housing Tax"
+msgstr "Податок на житло"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__intx
+msgid "Income Tax"
+msgstr "Податок на доходи"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_method_line__initiating_party_identifier
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_res_company__initiating_party_identifier
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_res_config_settings__initiating_party_identifier
+msgid "Initiating Party Identifier"
+msgstr "Ідентифікатор ініціюючої сторони"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_method_line__initiating_party_issuer
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_res_company__initiating_party_issuer
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_res_config_settings__initiating_party_issuer
+msgid "Initiating Party Issuer"
+msgstr "Емітент ініціюючої сторони"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_method_line__initiating_party_scheme
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_res_company__initiating_party_scheme
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_res_config_settings__initiating_party_scheme
+msgid "Initiating Party Scheme"
+msgstr "Схема ініціюючої сторони"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__inte
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__inte
+msgid "Interest"
+msgstr "Відсотки"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__lbri
+msgid "Labor Insurance"
+msgstr "Страхування праці"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_pain_regulatory_reporting__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_pain_regulatory_reporting__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__licf
+msgid "License Fee"
+msgstr "Ліцензійний збір"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__lifi
+msgid "Life Insurance"
+msgstr "Страхування життя"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__loar
+msgid "Loan Repayment"
+msgstr "Погашення позики"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_line__local_instrument
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_lot__local_instrument
+msgid "Local Instrument"
+msgstr "Локальний інструмент"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__mdcs
+msgid "Medical Services"
+msgstr "Медичні послуги"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_res_config_settings__group_pain_multiple_identifier
+msgid "Multiple identifiers"
+msgstr "Кілька ідентифікаторів"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__nett
+msgid "Netting"
+msgstr "Неттінг"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__nwch
+msgid "Network Charge"
+msgstr "Мережева комісія"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__priority__norm
+msgid "Normal"
+msgstr "Звичайний"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__ofee
+msgid "Opening Fee"
+msgstr "Комісія за відкриття"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__othr
+msgid "Other"
+msgstr "Інше"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__othr
+msgid "Other Payment"
+msgstr "Інший платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__ptsp
+msgid "Payment Terms"
+msgstr "Умови оплати"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__pens
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__pens
+msgid "Pension Payment"
+msgstr "Пенсійна виплата"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__prme
+msgid "Precious Metal"
+msgstr "Дорогоцінний метал"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__prcp
+msgid "Price Payment"
+msgstr "Оплата ціни"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__rlwy
+msgid "Railway"
+msgstr "Залізниця"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__rcpt
+msgid "Receipt Payment"
+msgstr "Платіж надходження"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__rent
+msgid "Rent"
+msgstr "Оренда"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__roya
+msgid "Royalties"
+msgstr "Роялті"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_order__sepa
+msgid "SEPA Payment"
+msgstr "Платіж SEPA"
+
+#. module: account_payment_sepa_base
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_base.account_payment_order_form
+msgid "SEPA zone"
+msgstr "Зона SEPA"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__sala
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__sala
+msgid "Salary Payment"
+msgstr "Виплата зарплати"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__savg
+msgid "Savings"
+msgstr "Заощадження"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__secu
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__secu
+msgid "Securities"
+msgstr "Цінні папери"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_order__charge_bearer__shar
+msgid "Shared"
+msgstr "Спільний"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__ssbe
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__ssbe
+msgid "Social Security Benefit"
+msgstr "Допомога із соціального страхування"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__stdy
+msgid "Study"
+msgstr "Дослідження"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__supp
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__supp
+msgid "Supplier Payment"
+msgstr "Платіж постачальнику"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__taxs
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__taxs
+msgid "Tax Payment"
+msgstr "Податковий платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__phon
+msgid "Telephone Bill"
+msgstr "Рахунок за телефон"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__trad
+msgid "Trade"
+msgstr "Торгівля"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__trad
+msgid "Trade Services"
+msgstr "Торговельні послуги"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__trea
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__trea
+msgid "Treasury Payment"
+msgstr "Казначейський платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__trfd
+msgid "Trust Fund"
+msgstr "Трастовий фонд"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__vatx
+msgid "VAT Payment"
+msgstr "Сплата ПДВ"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__view
+msgid "Vision Care"
+msgstr "Офтальмологічна допомога"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__wter
+msgid "Water Bill"
+msgstr "Рахунок за воду"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__whld
+msgid "WithHolding"
+msgstr "Утримання"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__epay
+msgid "ePayment"
+msgstr "Електронний платіж"

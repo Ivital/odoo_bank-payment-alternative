@@ -12,3 +12,13 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_account_payment_sepa_credit_transfer
 msgid "Create SEPA XML files for Credit Transfers"
 msgstr "Створення XML-файлів SEPA для кредитових переказів"
+
+#. module: account_payment_sepa_credit_transfer
+#: model:ir.model.fields.selection,name:account_payment_sepa_credit_transfer.selection__account_payment_line__local_instrument__inst
+msgid "Instant Transfer"
+msgstr "Миттєвий переказ"
+
+#. module: account_payment_sepa_credit_transfer
+#: model:ir.model.fields,field_description:account_payment_sepa_credit_transfer.field_account_payment_line__local_instrument
+msgid "Local Instrument"
+msgstr "Локальний інструмент"

@@ -46,3 +46,93 @@ msgstr "Вихідні"
 #: model:ir.ui.menu,name:account_payment_base_oca.account_payment_method_line_menu
 msgid "Payment Methods"
 msgstr "Способи оплати"
+
+#. module: account_payment_base_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_form
+msgid "# of Chars"
+msgstr "Кількість символів"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_setup_bank_manual_config__acc_number_scrambled
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_res_partner_bank__acc_number_scrambled
+msgid "Acc Number Scrambled"
+msgstr "Замаскований номер рахунку"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__variable_journal_ids
+msgid "Allowed Bank Journals"
+msgstr "Дозволені банківські журнали"
+
+#. module: account_payment_base_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_form
+msgid "Default Journal"
+msgstr "Журнал за замовчуванням"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__filter_journal_ids
+msgid "Filter Journal"
+msgstr "Фільтр журналу"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields.selection,name:account_payment_base_oca.selection__account_payment_method_line__show_bank_account__first
+msgid "First n chars"
+msgstr "Перші n символів"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields.selection,name:account_payment_base_oca.selection__account_payment_method_line__show_bank_account__full
+msgid "Full"
+msgstr "Повний"
+
+#. module: account_payment_base_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields.selection,name:account_payment_base_oca.selection__account_payment_method_line__show_bank_account__last
+msgid "Last n chars"
+msgstr "Останні n символів"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__bank_account_link
+msgid "Link to Bank Account"
+msgstr "Посилання на банківський рахунок"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields.selection,name:account_payment_base_oca.selection__account_payment_method_line__show_bank_account__no
+msgid "No"
+msgstr "Ні"
+
+#. module: account_payment_base_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_search
+msgid "Not Selectable"
+msgstr "Не можна вибрати"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_invoice_report__payment_method_line_id
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.view_account_invoice_report_search
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.view_move_form
+msgid "Payment Method"
+msgstr "Спосіб оплати"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__report_description
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_form
+msgid "Report Description"
+msgstr "Опис звіту"
+
+#. module: account_payment_base_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_search
+msgid "Selectable"
+msgstr "Доступний для вибору"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__payment_method_id
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_search
+msgid "Technical Payment Method"
+msgstr "Технічний спосіб оплати"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields.selection,name:account_payment_base_oca.selection__account_payment_method_line__bank_account_link__variable
+msgid "Variable"
+msgstr "Змінний"

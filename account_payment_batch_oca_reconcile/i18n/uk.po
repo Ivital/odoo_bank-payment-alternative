@@ -22,3 +22,23 @@ msgstr "Дата"
 #: model:ir.model.fields,field_description:account_payment_batch_oca_reconcile.field_account_payment_lot__is_matched
 msgid "Is Matched"
 msgstr "Зіставлено"
+
+#. module: account_payment_batch_oca_reconcile
+#: model:ir.model.fields,field_description:account_payment_batch_oca_reconcile.field_account_bank_statement_line__add_payment_lot_id
+msgid "Add Payment Lot"
+msgstr "Додати платіжний лот"
+
+#. module: account_payment_batch_oca_reconcile
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca_reconcile.bank_statement_line_form_reconcile_view
+msgid "Debit Lots"
+msgstr "Партії дебету"
+
+#. module: account_payment_batch_oca_reconcile
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca_reconcile.bank_statement_line_form_reconcile_view
+msgid "Payment Lots"
+msgstr "Партії платежів"
+
+#. module: account_payment_batch_oca_reconcile
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca_reconcile.account_payment_lot_reconcile_list
+msgid "View"
+msgstr "Перегляд"
