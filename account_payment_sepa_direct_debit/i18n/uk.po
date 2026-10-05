@@ -276,3 +276,50 @@ msgid ""
 msgstr ""
 "надсилати своєму банку інструкції дебетувати ваш рахунок і (B) вашому банку\n"
 "                       дебетувати рахунок відповідно до інструкцій від"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model,name:account_payment_sepa_direct_debit.model_account_banking_mandate
+msgid "A generic banking mandate"
+msgstr "Загальний банківський мандат"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model,name:account_payment_sepa_direct_debit.model_account_payment_lot
+msgid "Account Payment Lot"
+msgstr "Пакет платежів рахунку"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,help:account_payment_sepa_direct_debit.field_account_payment_method_line__sepa_creditor_identifier
+msgid ""
+"Enter the Creditor Identifier that has been attributed to your company to make SEPA Direct Debits. If not defined, SEPA Creditor Identifier from company will be used.\n"
+"This identifier is composed of :\n"
+"- your country ISO code (2 letters)\n"
+"- a 2-digits checkum\n"
+"- a 3-letters business code\n"
+"- a country-specific identifier"
+msgstr ""
+"Введіть ідентифікатор кредитора, наданий вашій компанії для виконання прямих дебетів SEPA. Якщо не визначено, використовуватиметься SEPA-ідентифікатор кредитора компанії.\n"
+"Цей ідентифікатор складається з:\n"
+"- ISO-коду вашої країни (2 літери)\n"
+"- 2-значної контрольної суми\n"
+"- 3-літерного бізнес-коду\n"
+"- ідентифікатора, специфічного для країни"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,help:account_payment_sepa_direct_debit.field_account_payment_line__mandate_state
+msgid ""
+"Only valid mandates can be used in a payment line. A cancelled mandate is a "
+"mandate that has been cancelled by the customer."
+msgstr ""
+"У рядку платежу можна використовувати лише чинні мандати. Скасований мандат "
+"— це мандат, скасований клієнтом."
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_payment_order.py:0
+msgid "PAIN version '%s' is not supported."
+msgstr "Версія PAIN '%s' не підтримується."
+
+#. module: account_payment_sepa_direct_debit
+#: model:account.payment.method,name:account_payment_sepa_direct_debit.sepa_direct_debit
+msgid "SEPA Direct Debit for customers"
+msgstr "SEPA Direct Debit для клієнтів"

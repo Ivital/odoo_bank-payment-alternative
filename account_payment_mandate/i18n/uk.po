@@ -484,3 +484,27 @@ msgid ""
 msgstr ""
 "Мандат слід повертати в чернетку лише якщо його було скасовано помилково. "
 "Продовжити?"
+
+#. module: account_payment_mandate
+#: model:ir.model.constraint,message:account_payment_mandate.constraint_account_banking_mandate_mandate_ref_company_uniq
+msgid "A Mandate with the same reference already exists for this company!"
+msgstr "Мандат із таким самим посиланням уже існує для цієї компанії!"
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_setup_bank_manual_config__mandate_ids
+#: model:ir.model.fields,help:account_payment_mandate.field_res_partner_bank__mandate_ids
+msgid ""
+"Banking mandates represent an authorization that the bank account owner "
+"gives to a company for a specific operation."
+msgstr ""
+"Банківські мандати є дозволом, який власник банківського рахунку надає "
+"компанії на виконання певної операції."
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__state
+msgid ""
+"Only valid mandates can be used in a payment line. A cancelled mandate is a "
+"mandate that has been cancelled by the customer."
+msgstr ""
+"У рядку платежу можна використовувати лише чинні мандати. Скасований мандат "
+"— це мандат, скасований клієнтом."

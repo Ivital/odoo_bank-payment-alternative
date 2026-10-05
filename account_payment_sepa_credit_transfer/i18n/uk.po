@@ -22,3 +22,14 @@ msgstr "Миттєвий переказ"
 #: model:ir.model.fields,field_description:account_payment_sepa_credit_transfer.field_account_payment_line__local_instrument
 msgid "Local Instrument"
 msgstr "Локальний інструмент"
+
+#. module: account_payment_sepa_credit_transfer
+#. odoo-python
+#: code:addons/account_payment_sepa_credit_transfer/models/account_payment_order.py:0
+msgid "PAIN version '%s' is not supported."
+msgstr "Версія PAIN '%s' не підтримується."
+
+#. module: account_payment_sepa_credit_transfer
+#: model:account.payment.method,name:account_payment_sepa_credit_transfer.sepa_credit_transfer
+msgid "SEPA Credit Transfer to suppliers"
+msgstr "SEPA Credit Transfer постачальникам"

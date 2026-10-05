@@ -181,3 +181,45 @@ msgstr "Можна вибрати для контрагентів/рахункі
 #: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__show_bank_account
 msgid "Show Customer Bank Account"
 msgstr "Показувати банківський рахунок клієнта"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,help:account_payment_base_oca.field_account_payment_method_line__bank_account_link
+msgid ""
+"For payment methods that are always attached to the same bank account of "
+"your company (such as wire transfer from customers or SEPA direct debit from"
+" suppliers), select 'Fixed'. For payment methods that are not always "
+"attached to the same bank account (such as SEPA Direct debit for customers, "
+"wire transfer to suppliers), you should select 'Variable', which means that "
+"you will select the bank account on the payment order. If your company only "
+"has one bank account, you should always select 'Fixed'."
+msgstr ""
+"Для способів платежу, завжди прив’язаних до одного банківського рахунку "
+"компанії (наприклад, банківський переказ від клієнтів або SEPA Direct Debit "
+"від постачальників), виберіть «Фіксований». Для способів, не прив’язаних "
+"постійно до одного рахунку, виберіть «Змінний» — рахунок обиратиметься в "
+"платіжному дорученні. Якщо компанія має лише один банківський рахунок, "
+"завжди вибирайте «Фіксований»."
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,help:account_payment_base_oca.field_account_payment_method_line__show_bank_account
+msgid "On invoice report, show partial or full bank account number."
+msgstr ""
+"У звіті рахунку показувати частковий або повний номер банківського рахунку."
+
+#. module: account_payment_base_oca
+#: model:ir.model.constraint,message:account_payment_base_oca.constraint_account_payment_method_line_show_bank_account_chars_positive
+msgid ""
+"The number of digits to show for customer bank account must be positive or "
+"null."
+msgstr ""
+"Кількість цифр для відображення банківського рахунку клієнта має бути "
+"додатною або порожньою."
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,help:account_payment_base_oca.field_account_payment_method_line__refund_payment_method_line_id
+msgid ""
+"This payment method will be used when doing refunds coming from the current "
+"payment method."
+msgstr ""
+"Цей спосіб оплати використовуватиметься для повернень, що походять із "
+"поточного способу оплати."

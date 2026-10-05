@@ -1055,3 +1055,155 @@ msgid ""
 msgstr ""
 "банківський рахунок/банківські рахунки не є довіреними. Натисніть кнопку "
 "вгорі, щоб перейти до нього/них."
+
+#. module: account_payment_batch_oca
+#: model:ir.model.constraint,message:account_payment_batch_oca.constraint_account_payment_line_name_company_unique
+msgid "A payment line already exists with this reference in the same company!"
+msgstr "Рядок платежу з таким посиланням уже існує в цій самій компанії!"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.constraint,message:account_payment_batch_oca.constraint_account_payment_order_name_company_unique
+msgid ""
+"A payment/debit order with the same reference already exists in this "
+"company."
+msgstr ""
+"Платіжне/дебетове доручення з таким посиланням уже існує в цій компанії."
+
+#. module: account_payment_batch_oca
+#: model:res.groups,name:account_payment_batch_oca.group_account_payment
+msgid "Accounting / Payments"
+msgstr "Облік / Платежі"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,help:account_payment_batch_oca.field_account_payment_line__partner_bank_acc_type
+msgid ""
+"Bank account type: Normal or IBAN. Inferred from the bank account number."
+msgstr ""
+"Тип банківського рахунку: Нормальний або IBAN. Виведено з номера "
+"банківського рахунку."
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,help:account_payment_batch_oca.field_account_payment_method__payment_order_ok
+msgid ""
+"Check this option for payment methods designed to be used in payment orders."
+msgstr ""
+"Позначте цей параметр для способів оплати, призначених для використання в "
+"платіжних дорученнях."
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,help:account_payment_batch_oca.field_account_payment_order__bank_account_link
+msgid ""
+"For payment methods that are always attached to the same bank account of "
+"your company (such as wire transfer from customers or SEPA direct debit from"
+" suppliers), select 'Fixed'. For payment methods that are not always "
+"attached to the same bank account (such as SEPA Direct debit for customers, "
+"wire transfer to suppliers), you should select 'Variable', which means that "
+"you will select the bank account on the payment order. If your company only "
+"has one bank account, you should always select 'Fixed'."
+msgstr ""
+"Для способів платежу, завжди прив’язаних до одного банківського рахунку "
+"компанії (наприклад, банківський переказ від клієнтів або SEPA Direct Debit "
+"від постачальників), виберіть «Фіксований». Для способів, не прив’язаних "
+"постійно до одного рахунку, виберіть «Змінний» — рахунок обиратиметься в "
+"платіжному дорученні. Якщо компанія має лише один банківський рахунок, "
+"завжди вибирайте «Фіксований»."
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,help:account_payment_batch_oca.field_account_payment_method_line__specific_sequence_id
+msgid ""
+"If left empty, the payment orders with this payment method will use the "
+"generic sequence for all payment orders."
+msgstr ""
+"Якщо залишити порожнім, платіжні доручення з цим способом оплати "
+"використовуватимуть загальну послідовність для всіх доручень."
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,help:account_payment_batch_oca.field_account_payment_method_line__group_lines
+msgid ""
+"If this mark is checked, the transaction lines of the payment order will be grouped upon confirmation of the payment order.The grouping will be done only if the following fields matches:\n"
+"* Partner\n"
+"* Currency\n"
+"* Destination Bank Account\n"
+"* Payment Date\n"
+"and if the 'Communication Type' is 'Free'\n"
+"(other modules can set additional fields to restrict the grouping.)"
+msgstr ""
+"Якщо цю позначку встановлено, рядки транзакцій платіжного доручення буде згруповано під час його підтвердження. Групування виконується лише якщо збігаються такі поля:\n"
+"* Партнер\n"
+"* Валюта\n"
+"* Банківський рахунок призначення\n"
+"* Дата платежу\n"
+"і якщо 'Тип комунікації' — 'Вільний'\n"
+"(інші модулі можуть додавати поля для обмеження групування)."
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,help:account_payment_batch_oca.field_account_payment_method_line__no_debit_before_maturity
+msgid ""
+"If you activate this option on an Inbound payment method, you will have an "
+"error message when you confirm a debit order that has a payment line with a "
+"payment date before the maturity date."
+msgstr ""
+"Якщо активувати цю опцію для методу вхідного платежу, під час підтвердження "
+"дебетового доручення з рядком платежу, дата якого раніше дати погашення, "
+"з’явиться повідомлення про помилку."
+
+#. module: account_payment_batch_oca
+#: model:mail.template,name:account_payment_batch_oca.payment_order_mail_notif
+msgid "Payment/Debit Order: mail notification"
+msgstr "Платіж/дебетове доручення: поштове сповіщення"
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,help:account_payment_batch_oca.field_account_payment_order__date_scheduled
+msgid ""
+"Select a requested date of execution if you selected 'Due Date' as the "
+"Payment Execution Date Type."
+msgstr ""
+"Виберіть потрібну дату виконання, якщо для типу дати виконання платежу "
+"вибрано «Due Date»."
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,help:account_payment_batch_oca.field_account_payment_line__partner_bank_allow_out_payment
+msgid ""
+"Sending fake invoices with a fraudulent account number is a common phishing "
+"practice. To protect yourself, always verify new bank account numbers, "
+"preferably by calling the vendor, as phishing usually happens when their "
+"emails are compromised. Once verified, you can activate the ability to send "
+"money."
+msgstr ""
+"Надсилання підроблених рахунків із фальшивим номером рахунку є поширеною "
+"практикою фішингу. Щоб захистити себе, завжди перевіряйте нові номери "
+"банківських рахунків, бажано зателефонувавши постачальнику, оскільки фішинг "
+"зазвичай відбувається, коли їхні електронні листи зламано. Після перевірки "
+"ви можете активувати можливість надсилати гроші."
+
+#. module: account_payment_batch_oca
+#: model:ir.model.fields,help:account_payment_batch_oca.field_account_payment_method_line__mail_partner_policy
+msgid ""
+"This configuration parameter will decide which partner is auto-configured as"
+" partner to notify on the payment/debit transaction. You can always manually"
+" change the partner to notify on the payment/debit transaction when the "
+"payment/debit order is in draft state."
+msgstr ""
+"Цей параметр конфігурації визначає, якого партнера автоматично встановлювати"
+" як партнера для сповіщення про платіжну/дебетову транзакцію. Поки "
+"платіжне/дебетове доручення має статус чернетки, партнера для сповіщення "
+"завжди можна змінити вручну."
+
+#. module: account_payment_batch_oca
+#: model:ir.model.constraint,message:account_payment_batch_oca.constraint_account_payment_lot_name_company_uniq
+msgid "This lot name already exists!"
+msgstr "Назва цієї партії вже існує!"
+
+#. module: account_payment_batch_oca
+#: model:ir.model,name:account_payment_batch_oca.model_account_payment_line_create
+msgid "Wizard to create payment lines"
+msgstr "Майстер створення рядків платежу"
+
+#. module: account_payment_batch_oca
+#: model:mail.template,subject:account_payment_batch_oca.payment_order_mail_notif
+msgid ""
+"{{object.payment_type == \"inbound\" and 'Debit' or 'Payment'}} notification"
+" of {{ object.company_id.name }}"
+msgstr ""
+"Сповіщення про {{object.payment_type == \"inbound\" and 'Debit' or "
+"'Payment'}} від {{ object.company_id.name }}"
