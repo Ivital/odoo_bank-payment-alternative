@@ -223,3 +223,70 @@ msgid ""
 msgstr ""
 "Цей спосіб оплати використовуватиметься для повернень, що походять із "
 "поточного способу оплати."
+
+#. module: account_payment_base_oca
+#. odoo-python
+#: code:addons/account_payment_base_oca/models/res_bank.py:0
+msgid ""
+"A valid BIC contains 8 or 11 characters. BIC '%(bic)s' contains %(num)d "
+"characters, so it is not valid."
+msgstr ""
+"Дійсний BIC містить 8 або 11 символів. BIC «%(bic)s» містить %(num)d "
+"символів, тому він недійсний."
+
+#. module: account_payment_base_oca
+#. odoo-python
+#: code:addons/account_payment_base_oca/models/res_bank.py:0
+msgid "BIC '%(bic)s' doesn't respect the standard pattern '{pattern}'."
+msgstr "BIC «%(bic)s» не відповідає стандартному шаблону «{pattern}»."
+
+#. module: account_payment_base_oca
+#. odoo-python
+#: code:addons/account_payment_base_oca/models/account_payment_method_line.py:0
+msgid ""
+"On %(name)s, the Payment Method %(method)s is configured with Bank Account "
+"Required but journal %(journal)s is not linked to a bank account."
+msgstr ""
+"У %(name)s спосіб оплати %(method)s налаштовано з вимогою банківського "
+"рахунку, але журнал %(journal)s не пов’язаний із банківським рахунком."
+
+#. module: account_payment_base_oca
+#. odoo-python
+#: code:addons/account_payment_base_oca/models/account_payment_method_line.py:0
+msgid ""
+"On %(name)s, the default journal '%(default_journal)s' is not part of the "
+"allowed bank journals."
+msgstr ""
+"У %(name)s типовий журнал «%(default_journal)s» не входить до дозволених "
+"банківських журналів."
+
+#. module: account_payment_base_oca
+#. odoo-python
+#: code:addons/account_payment_base_oca/models/account_payment_method_line.py:0
+msgid "On %(name)s, the journal is not set."
+msgstr "У %(name)s журнал не задано."
+
+#. module: account_payment_base_oca
+#. odoo-python
+#: code:addons/account_payment_base_oca/models/account_payment_method_line.py:0
+msgid ""
+"The payment method '%(name)s' has a variable link to a bank account, so it "
+"should not have an outstanding payment/receipt account. Only payment methods"
+" with a fixed link to a bank account can have one."
+msgstr ""
+"Спосіб оплати '%(name)s' має змінну прив’язку до банківського рахунку, тому "
+"він не повинен мати рахунку непогашених платежів/надходжень. Такий рахунок "
+"можуть мати лише способи оплати з фіксованою прив’язкою до банківського "
+"рахунку."
+
+#. module: account_payment_base_oca
+#. odoo-python
+#: code:addons/account_payment_base_oca/models/account_payment_method_line.py:0
+msgid ""
+"You should not edit the payment method '%(name)s' to change it from a fixed "
+"bank account link to a variable bank account link. You should create a new "
+"payment method with a variable bank account link."
+msgstr ""
+"Не слід редагувати спосіб оплати '%(name)s', щоб змінити його прив’язку з "
+"фіксованого банківського рахунку на змінний. Створіть новий спосіб оплати зі"
+" змінною прив’язкою до банківського рахунку."

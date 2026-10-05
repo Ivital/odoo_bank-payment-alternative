@@ -508,3 +508,115 @@ msgid ""
 msgstr ""
 "У рядку платежу можна використовувати лише чинні мандати. Скасований мандат "
 "— це мандат, скасований клієнтом."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid ""
+"Cannot validate the mandate '%s' because it is not attached to a bank "
+"account."
+msgstr ""
+"Не можна підтвердити мандат «%s», оскільки він не прив’язаний до "
+"банківського рахунку."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid "Cannot validate the mandate '%s' without a date of signature."
+msgstr "Не можна підтвердити мандат «%s» без дати підписання."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid ""
+"Mandate %(mandate)s is configured with partner %(partner)s and bank account "
+"%(bank_account)s, but this bank account belongs to partner "
+"%(partner_bank_account)s."
+msgstr ""
+"Мандат %(mandate)s налаштовано для партнера %(partner)s і банківського "
+"рахунку %(bank_account)s, але цей рахунок належить партнеру "
+"%(partner_bank_account)s."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid "Mandate '%s' should be in 'Final Debit' state."
+msgstr "Мандат «%s» має бути у стані «Остаточне списання»."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid "Mandate '%s' should be in cancel state."
+msgstr "Мандат «%s» має бути у стані скасування."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid "Mandate '%s' should be in draft state."
+msgstr "Мандат «%s» має бути у стані чернетки."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid "Mandate '%s' should be in draft, valid or final debit state."
+msgstr ""
+"Мандат «%s» має бути у стані чернетки, дійсному або остаточного списання."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid "Mandate '%s' should be in valid state."
+msgstr "Мандат «%s» має бути у дійсному стані."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_payment_line.py:0
+msgid "Missing mandate on payment line '%s'."
+msgstr "Відсутній мандат у рядку платежу '%s'."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid "The date of signature of mandate '%s' is in the future!"
+msgstr "Дата підписання мандата «%s» знаходиться в майбутньому!"
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_banking_mandate.py:0
+msgid ""
+"The mandate '%s' can't have a date of last debit before the date of "
+"signature."
+msgstr ""
+"Мандат «%s» не може мати дату останнього списання раніше дати підписання."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_payment_method.py:0
+msgid ""
+"The option 'Mandate Required' cannot be enabled on payment method '%s' which"
+" is not an inbound payment method."
+msgstr ""
+"Опцію «Потрібен мандат» не можна ввімкнути для способу оплати «%s», який не "
+"є вхідним способом оплати."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/account_payment_line.py:0
+msgid ""
+"The payment line number {line_number} has the bank account "
+"'{line_bank_account}' which is not attached to the mandate '{mandate_ref}' "
+"(this mandate is attached to the bank account '{mandate_bank_account}')."
+msgstr ""
+"Рядок платежу № {line_number} має банківський рахунок '{line_bank_account}',"
+" який не прив’язаний до мандата '{mandate_ref}' (цей мандат прив’язано до "
+"банківського рахунку '{mandate_bank_account}')."
+
+#. module: account_payment_mandate
+#. odoo-python
+#: code:addons/account_payment_mandate/models/res_partner_bank.py:0
+msgid ""
+"You cannot change the company of Partner Bank %s, as there exists mandates "
+"referencing it that belong to another company."
+msgstr ""
+"Не можна змінити компанію банку партнера %s, оскільки існують мандати іншої "
+"компанії, що посилаються на нього."

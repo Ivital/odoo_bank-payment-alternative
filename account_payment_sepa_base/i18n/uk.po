@@ -918,3 +918,75 @@ msgstr ""
 "- Код країни (2, необов'язково)\n"
 "- Ідентифікатор компанії (N, VAT)\n"
 "- Суфікс сервісу (N, видається банком)"
+
+#. module: account_payment_sepa_base
+#. odoo-python
+#: code:addons/account_payment_sepa_base/models/res_partner_bank.py:0
+msgid "Creditor Name"
+msgstr "Ім’я кредитора"
+
+#. module: account_payment_sepa_base
+#. odoo-python
+#: code:addons/account_payment_sepa_base/models/res_partner_bank.py:0
+msgid "Debtor Name"
+msgstr "Ім’я боржника"
+
+#. module: account_payment_sepa_base
+#. odoo-python
+#: code:addons/account_payment_sepa_base/models/account_payment_order.py:0
+msgid ""
+"Error in the generation of the XML payment file: '%(field)s' should be a "
+"string, but it is %(value_type)s (value: %(value)s)."
+msgstr ""
+"Помилка генерації XML-файлу платежу: «%(field)s» має бути рядком, але має "
+"тип %(value_type)s (значення: %(value)s)."
+
+#. module: account_payment_sepa_base
+#. odoo-python
+#: code:addons/account_payment_sepa_base/models/account_payment_order.py:0
+msgid ""
+"Error in the generation of the XML payment file: '%(field_name)s' with value"
+" '%(value)s' has %(count)s caracters, but the maximum is %(max_size)s "
+"caracters."
+msgstr ""
+"Помилка генерації XML-файлу платежу: поле «%(field_name)s» зі значенням "
+"«%(value)s» має %(count)s символів, максимум — %(max_size)s."
+
+#. module: account_payment_sepa_base
+#. odoo-python
+#: code:addons/account_payment_sepa_base/models/account_payment_order.py:0
+msgid ""
+"Error in the generation of the XML payment file: '%s' is empty. It should "
+"have a non-null value."
+msgstr ""
+"Помилка генерації XML-файлу платежу: «%s» порожнє. Воно повинно мати "
+"ненульове значення."
+
+#. module: account_payment_sepa_base
+#. odoo-python
+#: code:addons/account_payment_sepa_base/models/account_payment_order.py:0
+msgid ""
+"Missing 'Initiating Party Issuer' and/or 'Initiating Party Identifier' for "
+"the company '%s'. Both fields must have a value."
+msgstr ""
+"Для компанії «%s» відсутні «Емітент ініціюючої сторони» та/або "
+"«Ідентифікатор ініціюючої сторони». Обидва поля мають бути заповнені."
+
+#. module: account_payment_sepa_base
+#. odoo-python
+#: code:addons/account_payment_sepa_base/models/account_payment_method.py:0
+msgid "No XSD file path found for payment method '%s'"
+msgstr "Не знайдено шлях до XSD-файлу для способу оплати «%s»"
+
+#. module: account_payment_sepa_base
+#. odoo-python
+#: code:addons/account_payment_sepa_base/models/account_payment_order.py:0
+msgid ""
+"The generated XML file is not valid against the official XML Schema "
+"Definition. The generated XML file and the full error have been written in "
+"the server logs. Here is the error, which may give you an idea on the cause "
+"of the problem : %s"
+msgstr ""
+"Згенерований XML-файл не відповідає офіційному визначенню XML-схеми. "
+"Згенерований XML-файл і повний текст помилки записано в журнали сервера. Ось"
+" помилка, яка може допомогти визначити причину проблеми: %s"

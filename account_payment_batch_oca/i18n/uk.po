@@ -1207,3 +1207,250 @@ msgid ""
 msgstr ""
 "Сповіщення про {{object.payment_type == \"inbound\" and 'Debit' or "
 "'Payment'}} від {{ object.company_id.name }}"
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_move.py:0
+msgid ""
+"%(count)d payment line(s) added to the existing draft payment order "
+"%(pay_order_link)s."
+msgstr ""
+"%(count)d рядок(и) платежу додано до наявного платіжного доручення-чернетки "
+"%(pay_order_link)s."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_move.py:0
+msgid ""
+"%(count)d payment lines added to the new draft payment order "
+"%(pay_order_link)s, which has been automatically created."
+msgstr ""
+"%(count)d рядків платежу додано до нового чернеткового платіжного доручення "
+"%(pay_order_link)s, створеного автоматично."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid "%s is linked to existing lots. This should never happen."
+msgstr ""
+"%s пов’язано з наявними партіями. Такого ніколи не повинно траплятися."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid "%s is linked to existing payments. This should never happen."
+msgstr ""
+"%s пов’язано з наявними платежами. Такого ніколи не повинно траплятися."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_line.py:0
+msgid ""
+"Bank account '%(bank_account)s' of partner '%(partner)s' is untrusted. Check"
+" that this bank account can be trusted and activate the option 'Send Money' "
+"on it."
+msgstr ""
+"Банківський рахунок «%(bank_account)s» партнера «%(partner)s» ненадійний. "
+"Перевірте його й активуйте опцію «Надсилати гроші»."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_line.py:0
+msgid "Communication is empty on payment line %s."
+msgstr "У рядку платежу %s відсутня комунікація."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid "Missing Bank Journal on payment order %s."
+msgstr "У платіжному дорученні %s відсутній банківський журнал."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_line.py:0
+msgid "Missing Partner Bank Account on payment line %s"
+msgstr "У рядку платежу %s відсутній банківський рахунок партнера"
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid "Missing bank account on bank journal '%s'."
+msgstr "У банківському журналі «%s» відсутній банківський рахунок."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_line.py:0
+msgid "Missing email on notification partner '%s'."
+msgstr "У партнера сповіщення «%s» відсутня електронна адреса."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_move.py:0
+msgid ""
+"No Payment Line created for invoice '%(invoice)s' because its payment method"
+" '%(pay_method)s' is not intended for payment/debit orders."
+msgstr ""
+"Для рахунку «%(invoice)s» не створено рядок платежу, оскільки спосіб оплати "
+"«%(pay_method)s» не призначений для платіжних/дебетових доручень."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_move.py:0
+msgid "No Payment Method on invoice '%s'."
+msgstr "У рахунку '%s' немає способу оплати."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid ""
+"No handler for payment method code '%s'. Maybe you haven't installed the "
+"related Odoo module."
+msgstr ""
+"Немає обробника для коду способу оплати «%s». Можливо, не встановлено "
+"відповідний модуль Odoo."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_line.py:0
+msgid ""
+"No payment method with a fixed link to journal '%(journal)s' with technical "
+"payment method '%(payment_method)s'. You must create one."
+msgstr ""
+"Немає способу оплати з фіксованим зв’язком із журналом «%(journal)s» і "
+"технічним способом оплати «%(payment_method)s». Потрібно створити його."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_move.py:0
+msgid "No pending receivable/payable lines to add on invoice '%s'."
+msgstr ""
+"Немає відкритих рядків дебіторської/кредиторської заборгованості для "
+"додавання до рахунку «%s»."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid "None of the payment lines are linked to a journal item."
+msgstr "Жоден рядок платежу не пов’язаний з елементом журналу."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid ""
+"Odoo <strong>failed to generate the email</strong> for partner <a href=# "
+"data-oe-model=res.partner data-oe-id=%(partner_id)d> %(partner_name)s</a>: "
+"%(error)s"
+msgstr ""
+"Odoo <strong>не вдалося згенерувати електронний лист</strong> для партнера "
+"<a href=# data-oe-model=res.partner data-oe-id=%(partner_id)d> "
+"%(partner_name)s</a>: %(error)s"
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_line.py:0
+msgid ""
+"On payment line %(name)s with partner '%(partner)s', the bank account "
+"'%(bank_account)s' belongs to partner '%(bank_account_partner)s'."
+msgstr ""
+"У рядку платежу %(name)s партнера «%(partner)s» банківський рахунок "
+"«%(bank_account)s» належить партнеру «%(bank_account_partner)s»."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_line.py:0
+msgid ""
+"On payment line %(name)s, the bank account '%(bank_account)s' is the same as"
+" the company bank account of the payment order."
+msgstr ""
+"У рядку платежу %(name)s банківський рахунок «%(bank_account)s» збігається з"
+" банківським рахунком компанії платіжного доручення."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid ""
+"On payment/debit order %(order)s, the payment type is %(order_ptype)s, but "
+"the payment method %(method)s is configured with payment type "
+"%(method_ptype)s."
+msgstr ""
+"У платіжному/дебетовому дорученні %(order)s тип платежу — %(order_ptype)s, "
+"але спосіб оплати %(method)s налаштований з типом %(method_ptype)s."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid ""
+"On payment/debit order %(porder)s, the payment execution date is in the past"
+" (%(exedate)s)."
+msgstr ""
+"У платіжному/дебетовому дорученні %(porder)s дата виконання платежу "
+"знаходиться в минулому (%(exedate)s)."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_line.py:0
+msgid "Payment line %s is not linked to a journal item."
+msgstr "Рядок платежу %s не пов’язаний з елементом журналу."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_method_line.py:0
+msgid ""
+"Payment method '%(method)s' cannot be selectable on payment/debit orders but"
+" not selectable on partners/invoices."
+msgstr ""
+"Спосіб оплати «%(method)s» не може бути доступним у платіжних/дебетових "
+"дорученнях і водночас недоступним у партнерів/рахунків."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/wizard/account_payment_line_create.py:0
+msgid "Select Journal Items to Create Transactions"
+msgstr "Виберіть елементи журналу для створення транзакцій"
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid ""
+"The amount for Partner '%(partner)s' is negative or null (%(amount).2f) !"
+msgstr "Сума для партнера «%(partner)s» від’ємна або нульова (%(amount).2f)!"
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_move.py:0
+msgid ""
+"The invoice %(move)s is already added in the payment order(s) %(order)s."
+msgstr "Рахунок %(move)s уже додано до платіжного доручення(ь) %(order)s."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_move.py:0
+msgid "The invoice '%s' is not in Posted state."
+msgstr "Рахунок «%s» не перебуває у стані «Проведено»."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_line.py:0
+msgid ""
+"The payment method '%(method)s' has the option 'Disallow Debit Before "
+"Maturity Date'. The payment line %(pline)s has a maturity date %(mdate)s "
+"which is after the computed payment date %(pdate)s."
+msgstr ""
+"Для способу оплати '%(method)s' увімкнено опцію 'Заборонити списання до дати"
+" погашення'. Рядок платежу %(pline)s має дату погашення %(mdate)s, яка "
+"пізніша за обчислену дату платежу %(pdate)s."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid "There are no transactions on payment order %s."
+msgstr "У платіжному дорученні %s немає транзакцій."
+
+#. module: account_payment_batch_oca
+#. odoo-python
+#: code:addons/account_payment_batch_oca/models/account_payment_order.py:0
+msgid ""
+"You cannot delete an uploaded payment/debit order (but you can cancel it)."
+msgstr ""
+"Не можна видалити завантажене платіжне/дебетове доручення (але його можна "
+"скасувати)."

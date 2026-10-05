@@ -323,3 +323,78 @@ msgstr "Версія PAIN '%s' не підтримується."
 #: model:account.payment.method,name:account_payment_sepa_direct_debit.sepa_direct_debit
 msgid "SEPA Direct Debit for customers"
 msgstr "SEPA Direct Debit для клієнтів"
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_payment_lot.py:0
+msgid "B2B Mandate"
+msgstr "Мандат B2B"
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_payment_lot.py:0
+msgid "CORE Mandate"
+msgstr "Мандат CORE"
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_payment_line.py:0
+msgid "Mandate '%s' is not in state 'Valid' nor 'Final Debit'."
+msgstr "Мандат «%s» не перебуває у стані «Дійсний» або «Остаточне списання»."
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_banking_mandate.py:0
+msgid "Mandate automatically set to expired after %d months without use."
+msgstr ""
+"Мандат автоматично встановлено як прострочений після %d місяців без "
+"використання."
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_payment_method_line.py:0
+msgid ""
+"Missing SEPA Creditor Identifier on company %(company)s (or on payment "
+"method %(payment_method)s)."
+msgstr ""
+"Відсутній ідентифікатор кредитора SEPA для компанії %(company)s (або способу"
+" оплати %(payment_method)s)."
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_payment_method_line.py:0
+#: code:addons/account_payment_sepa_direct_debit/models/res_company.py:0
+msgid "The SEPA Creditor Identifier '%s' is invalid."
+msgstr "Ідентифікатор кредитора SEPA '%s' недійсний."
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_payment_line.py:0
+msgid ""
+"The SEPA Direct Debit mandate with reference {mandate_ref} for partner "
+"{partner_name} has expired."
+msgstr ""
+"Мандат прямого дебету SEPA з посиланням {mandate_ref} для партнера "
+"{partner_name} прострочено."
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_payment_line.py:0
+msgid ""
+"The SEPA Direct Debit mandate with reference {mandate_ref} for partner "
+"{partner_name} has type set to 'One-Off' but has a last debit date set to "
+"{last_debit_date}. Therefore, it cannot be used."
+msgstr ""
+"Мандат прямого дебету SEPA з посиланням {mandate_ref} для партнера "
+"{partner_name} має тип 'Одноразовий', але для нього встановлено дату "
+"останнього списання {last_debit_date}. Тому його не можна використовувати."
+
+#. module: account_payment_sepa_direct_debit
+#. odoo-python
+#: code:addons/account_payment_sepa_direct_debit/models/account_banking_mandate.py:0
+msgid ""
+"The SEPA mandate '%(mandate)s' is linked to bank account '%(bank_account)s' "
+"which is not an IBAN bank account."
+msgstr ""
+"SEPA-мандат «%(mandate)s» пов’язаний із банківським рахунком "
+"«%(bank_account)s», який не є IBAN-рахунком."

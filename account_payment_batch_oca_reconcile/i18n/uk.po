@@ -42,3 +42,13 @@ msgstr "Партії платежів"
 #: model_terms:ir.ui.view,arch_db:account_payment_batch_oca_reconcile.account_payment_lot_reconcile_list
 msgid "View"
 msgstr "Перегляд"
+
+#. module: account_payment_batch_oca_reconcile
+#. odoo-python
+#: code:addons/account_payment_batch_oca_reconcile/models/account_payment_lot.py:0
+msgid ""
+"The selected payment lot %s is made of payments that are already reconciled "
+"or don't have a journal entry and are not linked to invoices."
+msgstr ""
+"Вибраний пакет платежів %s складається з платежів, які вже узгоджені або не "
+"мають журнального проведення і не пов’язані з рахунками."
