@@ -83,3 +83,19 @@ msgstr "Перевірене повідомлення"
 #: model:ir.model.fields,field_description:account_payment_batch_oca_tier_validation.field_account_payment_order__validation_status
 msgid "Validation Status"
 msgstr "Статус перевірки"
+
+#. module: account_payment_batch_oca_tier_validation
+#: model:ir.model.fields,help:account_payment_batch_oca_tier_validation.field_account_payment_order__has_comment
+msgid "If set, Allow the reviewer to leave a comment on the review."
+msgstr ""
+"Якщо встановлено, дозволити рецензенту залишати коментар до перевірки."
+
+#. module: account_payment_batch_oca_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca_tier_validation.account_payment_order_search_view
+msgid "My Payment Orders to review"
+msgstr "Мої платіжні доручення на перегляд"
+
+#. module: account_payment_batch_oca_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_oca_tier_validation.account_payment_order_search_view
+msgid "Payment Orders validated and ready to be confirmed"
+msgstr "Платіжні доручення перевірено та готово до підтвердження"

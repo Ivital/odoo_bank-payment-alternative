@@ -22,3 +22,17 @@ msgstr "Мандат прямого дебету"
 #: model:ir.model.fields,field_description:account_payment_mandate_sale.field_sale_order__mandate_required
 msgid "Mandate Required"
 msgstr "Потрібен мандат"
+
+#. module: account_payment_mandate_sale
+#: model:ir.model.fields,help:account_payment_mandate_sale.field_sale_order__mandate_required
+msgid ""
+"Activate this option if this payment method requires your customer to sign a"
+" direct debit mandate with your company."
+msgstr ""
+"Увімкніть цю опцію, якщо цей спосіб оплати вимагає від клієнта підписати з "
+"вашою компанією мандат на пряме дебетування."
+
+#. module: account_payment_mandate_sale
+#: model:ir.model.fields,field_description:account_payment_mandate_sale.field_sale_order__commercial_invoice_partner_id
+msgid "Invoicing Commercial Entity"
+msgstr "Комерційна організація для виставлення рахунків"

@@ -346,3 +346,141 @@ msgstr "Підтвердити"
 #: model:ir.model.fields,field_description:account_payment_mandate.field_account_banking_mandate__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: account_payment_mandate
+#: model_terms:ir.actions.act_window,help:account_payment_mandate.mandate_action
+msgid ""
+"A Banking Mandate is a document signed by your customer that gives you the "
+"autorization to do one or several operations on his bank account."
+msgstr ""
+"Банківський мандат — документ, підписаний вашим клієнтом, який надає вам "
+"дозвіл виконувати одну або кілька операцій з його банківським рахунком."
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_bank_statement_line__mandate_required
+#: model:ir.model.fields,help:account_payment_mandate.field_account_move__mandate_required
+#: model:ir.model.fields,help:account_payment_mandate.field_account_payment_line__mandate_required
+#: model:ir.model.fields,help:account_payment_mandate.field_account_payment_method__mandate_required
+#: model:ir.model.fields,help:account_payment_mandate.field_account_payment_order__mandate_required
+msgid ""
+"Activate this option if this payment method requires your customer to sign a"
+" direct debit mandate with your company."
+msgstr ""
+"Увімкніть цю опцію, якщо цей спосіб оплати вимагає від клієнта підписати з "
+"вашою компанією мандат на пряме дебетування."
+
+#. module: account_payment_mandate
+#: model_terms:ir.ui.view,arch_db:account_payment_mandate.view_mandate_form
+msgid "Are you sure the next debit with this mandate will be the final debit?"
+msgstr "Ви впевнені, що наступне списання за цим мандатом буде останнім?"
+
+#. module: account_payment_mandate
+#: model_terms:ir.ui.view,arch_db:account_payment_mandate.view_mandate_form
+msgid "Are you sure you want to cancel this mandate?"
+msgstr "Ви впевнені, що хочете скасувати цей мандат?"
+
+#. module: account_payment_mandate
+#: model_terms:ir.actions.act_window,help:account_payment_mandate.mandate_action
+msgid "Click to create a new Banking Mandate."
+msgstr "Натисніть, щоб створити новий банківський мандат."
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,field_description:account_payment_mandate.field_account_banking_mandate__signature_date
+msgid "Date of Signature"
+msgstr "Дата підпису"
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,field_description:account_payment_mandate.field_account_banking_mandate__last_debit_date
+msgid "Date of the Last Debit"
+msgstr "Дата останнього дебету"
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,field_description:account_payment_mandate.field_account_banking_mandate__payment_line_ids_count
+msgid "Payment Line Ids Count"
+msgstr "Кількість ID рядків платежу"
+
+#. module: account_payment_mandate
+#: model_terms:ir.ui.view,arch_db:account_payment_mandate.view_mandate_search
+msgid "Reference or Partner"
+msgstr "Посилання або партнер"
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,field_description:account_payment_mandate.field_account_banking_mandate__payment_line_ids
+msgid "Related Payment Lines"
+msgstr "Пов’язані рядки платежу"
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,field_description:account_payment_mandate.field_account_banking_mandate__scan
+msgid "Scan of the Mandate"
+msgstr "Скан мандата"
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: account_payment_mandate
+#: model:ir.model.fields,help:account_payment_mandate.field_account_banking_mandate__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: account_payment_mandate
+#: model_terms:ir.ui.view,arch_db:account_payment_mandate.view_mandate_form
+msgid ""
+"You should put it back to valid only if it was set to 'Final Debit' by "
+"mistake. Do you want to continue?"
+msgstr ""
+"Повертати стан «дійсний» слід лише якщо «Останнє списання» було встановлено "
+"помилково. Продовжити?"
+
+#. module: account_payment_mandate
+#: model_terms:ir.ui.view,arch_db:account_payment_mandate.view_mandate_form
+msgid ""
+"You should set a mandate back to draft only if you cancelled it by mistake. "
+"Do you want to continue?"
+msgstr ""
+"Мандат слід повертати в чернетку лише якщо його було скасовано помилково. "
+"Продовжити?"

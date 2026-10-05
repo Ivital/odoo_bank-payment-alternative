@@ -136,3 +136,48 @@ msgstr "Технічний спосіб оплати"
 #: model:ir.model.fields.selection,name:account_payment_base_oca.selection__account_payment_method_line__bank_account_link__variable
 msgid "Variable"
 msgstr "Змінний"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__show_bank_account_chars
+msgid "# of Digits to Show for Customer Bank Account"
+msgstr "К-сть цифр для показу банківського рахунка клієнта"
+
+#. module: account_payment_base_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_form
+msgid "Display Customer Bank Account in Invoice Report"
+msgstr "Показувати банківський рахунок клієнта у звіті рахунка"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields.selection,name:account_payment_base_oca.selection__account_payment_method_line__show_bank_account__first_last
+msgid "First n chars and Last n chars"
+msgstr "Перші n символів і останні n символів"
+
+#. module: account_payment_base_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_form
+msgid "Outstanding Payment Account"
+msgstr "Рахунок непогашених платежів"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__payment_account_id
+msgid "Outstanding Payment/Receipt Account"
+msgstr "Рахунок непогашених платежів/надходжень"
+
+#. module: account_payment_base_oca
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca.account_payment_method_line_form
+msgid "Outstanding Receipt Account"
+msgstr "Рахунок непогашених надходжень"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__refund_payment_method_line_id
+msgid "Payment Method for Refunds"
+msgstr "Спосіб оплати для повернень"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__selectable
+msgid "Selectable on Partners/Invoices"
+msgstr "Можна вибрати для контрагентів/рахунків"
+
+#. module: account_payment_base_oca
+#: model:ir.model.fields,field_description:account_payment_base_oca.field_account_payment_method_line__show_bank_account
+msgid "Show Customer Bank Account"
+msgstr "Показувати банківський рахунок клієнта"

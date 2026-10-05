@@ -538,3 +538,269 @@ msgstr "Утримання"
 #: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__epay
 msgid "ePayment"
 msgstr "Електронний платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__acct
+msgid "Account Management"
+msgstr "Керування рахунками"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__agrt
+msgid "Agricultural Transfer"
+msgstr "Сільськогосподарське переміщення"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__ants
+msgid "Anesthesia Services"
+msgstr "Послуги анестезії"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_order__charge_bearer__cred
+msgid "Borne by Creditor"
+msgstr "За рахунок кредитора"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__bexp
+msgid "Business Expenses"
+msgstr "Господарські витрати"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__clpr
+msgid "Car Loan Principal Repayment"
+msgstr "Погашення основної суми автокредиту"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__cblk
+msgid "Card Bulk Clearing"
+msgstr "Масове клірингове списання карток"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__coll
+msgid "Collection Payment"
+msgstr "Платіж інкасації"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__comc
+msgid "Commercial Payment"
+msgstr "Комерційний платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__cmdt
+msgid "Commodity Transfer"
+msgstr "Переміщення товару"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__comt
+msgid "Consumer Third Party Consolidated Payment"
+msgstr "Консолідований платіж третьої сторони споживача"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__cvcf
+msgid "Convalescent Care Facility"
+msgstr "Заклад післялікарняного догляду"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__dcrd
+msgid "Debit  Card  Payment"
+msgstr "Оплата дебетовою карткою"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__dcrd
+msgid "Debit Card Payment"
+msgstr "Оплата дебетовою карткою"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_method_line__default_batch_booking
+msgid "Default Batch Booking"
+msgstr "Пакетне бронювання за замовчуванням"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__dvpm
+msgid "Deliver Against Payment"
+msgstr "Доставка проти оплати"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__dmeq
+msgid "Durable Medicale Equipment"
+msgstr "Медичне обладнання тривалого використання"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_order__charge_bearer__slev
+msgid "Following Service Level"
+msgstr "Наступний рівень обслуговування"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__govi
+msgid "Government Insurance"
+msgstr "Державне страхування"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__hlrp
+msgid "Housing Loan Repayment"
+msgstr "Погашення житлового кредиту"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__ihrp
+msgid "Instalment Hire Purchase Agreement"
+msgstr "Договір купівлі в розстрочку"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__insu
+msgid "Insurance Premium"
+msgstr "Страхова премія"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__icrf
+msgid "Intermediate Care Facility"
+msgstr "Заклад проміжного догляду"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__intc
+msgid "Intra Company Payment"
+msgstr "Внутрішньокомпанійний платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__intc
+msgid "Intra-Company Payment"
+msgstr "Внутрішньокомпанійний платіж"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__iccp
+msgid "Irrevocable Credit Card Payment"
+msgstr "Безвідкличний платіж кредитною карткою"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__idcp
+msgid "Irrevocable Debit Card Payment"
+msgstr "Безвідкличний платіж дебетовою карткою"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__lima
+msgid "Liquidity Management"
+msgstr "Керування ліквідністю"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__ltcf
+msgid "Long Term Care Facility"
+msgstr "Заклад довготривалого догляду"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__msvc
+msgid "Multiple Service Types"
+msgstr "Кілька типів послуг"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__nwcm
+msgid "Network Communication"
+msgstr "Мережева комунікація"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__nows
+msgid "Not Otherwise Specified"
+msgstr "Інше, не зазначене"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__otlc
+msgid "Other Telecom Related Bill"
+msgstr "Інший рахунок, пов’язаний із телекомунікаціями"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__padd
+msgid "Preauthorized debit"
+msgstr "Попередньо авторизований дебет"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__ppti
+msgid "Property Insurance"
+msgstr "Страхування майна"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__gdds
+msgid "Purchase Sale Of Goods"
+msgstr "Закупівля-продаж товарів"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__scve
+msgid "Purchase Sale Of Services"
+msgstr "Закупівля-продаж послуг"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__rvpm
+msgid "Receive Against Payment"
+msgstr "Отримати проти оплати"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__rinp
+msgid "Recurring Installment Payment"
+msgstr "Періодичний платіж частинами"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_line__regulatory_reporting_id
+msgid "Regulatory Reporting"
+msgstr "Регуляторна звітність"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_order__show_warning_not_sepa
+msgid "Show Warning Not Sepa"
+msgstr "Показувати попередження не-SEPA"
+
+#. module: account_payment_sepa_base
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_base.account_payment_order_form
+msgid ""
+"This payment order is <b>not SEPA</b>. If it is not intented, check that all"
+" payment lines are in € and that all bank accounts are valid IBANs with a "
+"country prefix in the"
+msgstr ""
+"Це платіжне доручення <b>не SEPA</b>. Якщо це неочікувано, перевірте, що всі"
+" рядки платежу в € і всі банківські рахунки мають дійсні IBAN із префіксом "
+"країни в"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,help:account_payment_sepa_base.field_res_company__initiating_party_identifier
+#: model:ir.model.fields,help:account_payment_sepa_base.field_res_config_settings__initiating_party_identifier
+msgid ""
+"This will be used as the 'Initiating Party Identifier' in the SEPA XML files"
+" generated by Odoo."
+msgstr ""
+"Це значення використовуватиметься як «Initiating Party Identifier» у XML-"
+"файлах SEPA, створених Odoo."
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,help:account_payment_sepa_base.field_res_company__initiating_party_issuer
+#: model:ir.model.fields,help:account_payment_sepa_base.field_res_config_settings__initiating_party_issuer
+msgid ""
+"This will be used as the 'Initiating Party Issuer' in the SEPA XML files "
+"generated by Odoo."
+msgstr ""
+"Це значення використовуватиметься як «Initiating Party Issuer» у XML-файлах "
+"SEPA, створених Odoo."
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,help:account_payment_sepa_base.field_res_company__initiating_party_scheme
+#: model:ir.model.fields,help:account_payment_sepa_base.field_res_config_settings__initiating_party_scheme
+msgid ""
+"This will be used as the 'Initiating Party Scheme Name' in the SEPA XML "
+"files generated by Odoo."
+msgstr ""
+"Це значення використовуватиметься як «Initiating Party Scheme Name» у XML-"
+"файлах SEPA, створених Odoo."
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__category_purpose__cort
+msgid "Trade Settlement Payment"
+msgstr "Платіж торговельного розрахунку"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__bene
+msgid "Unemployment Disability Benefit"
+msgstr "Допомога по безробіттю через непрацездатність"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields.selection,name:account_payment_sepa_base.selection__account_payment_line__purpose__vatx
+msgid "Value Added Tax Payment"
+msgstr "Сплата податку на додану вартість"
+
+#. module: account_payment_sepa_base
+#: model:ir.model.fields,field_description:account_payment_sepa_base.field_account_payment_method__warn_not_sepa
+msgid "Warn If Not SEPA"
+msgstr "Попереджати, якщо не SEPA"

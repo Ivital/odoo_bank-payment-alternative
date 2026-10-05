@@ -24,3 +24,8 @@ msgstr "<strong>Спосіб оплати:</strong>"
 #: model_terms:ir.ui.view,arch_db:account_payment_base_oca_sale.view_order_product_search
 msgid "Payment Method"
 msgstr "Спосіб оплати"
+
+#. module: account_payment_base_oca_sale
+#: model_terms:ir.ui.view,arch_db:account_payment_base_oca_sale.report_sale_payment_mode
+msgid "Here are the instructions for your payment"
+msgstr "Ось інструкції для вашого платежу"

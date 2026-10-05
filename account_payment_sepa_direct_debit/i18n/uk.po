@@ -91,3 +91,188 @@ msgstr "Мандат SEPA"
 #: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_payment_lot__sequence_type
 msgid "Sequence Type"
 msgstr "Тип послідовності"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Account Number - IBAN:</em>"
+msgstr "<em>Номер рахунка — IBAN:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Address of the Debtor:</em>"
+msgstr "<em>Адреса боржника:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Address:</em>"
+msgstr "<em>Адреса:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Country of the debtor:</em>"
+msgstr "<em>Країна боржника:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Country:</em>"
+msgstr "<em>Країна:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Creditor's Name:</em>"
+msgstr "<em>Ім’я кредитора:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Date - Location:</em>"
+msgstr "<em>Дата — місце:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Debtor's Name:</em>"
+msgstr "<em>Ім’я боржника:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Identifier:</em>"
+msgstr "<em>Ідентифікатор:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Mandate Reference:</em>"
+msgstr "<em>Посилання мандата:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Postal Code - City - Town:</em>"
+msgstr "<em>Поштовий індекс - Місто - Населений пункт:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Signature of the debtor:</em>"
+msgstr "<em>Підпис боржника:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Swift BIC (up to 8 or 11 characteres):</em>"
+msgstr "<em>Swift BIC (до 8 або 11 символів):</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<em>Type of payment:</em>"
+msgstr "<em>Тип платежу:</em>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<strong>SEPA Business-To-Business Direct debit Mandate</strong>"
+msgstr "<strong>Мандат прямого дебету SEPA Business-To-Business</strong>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "<strong>SEPA Direct Debit Mandate</strong>"
+msgstr "<strong>Мандат прямого дебету SEPA</strong>"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid ""
+"ALL GAPS ARE MANDATORY. ONCE THIS MANDATE HAS BEEN SIGNED MUST BE SENT TO "
+"CREDITOR FOR STORAGE."
+msgstr ""
+"УСІ ПРОПУСКИ Є ОБОВ’ЯЗКОВИМИ. ПІСЛЯ ПІДПИСАННЯ ЦЕЙ МАНДАТ НЕОБХІДНО "
+"НАДІСЛАТИ КРЕДИТОРУ НА ЗБЕРІГАННЯ."
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid ""
+"ALL GAPS ARE MANDATORY. ONCE THIS MANDATE HAS BEEN SIGNED MUST BE SENT TO CREDITOR FOR STORAGE.\n"
+"                        NEVERTHELESS, THE BANK OF DEBTOR REQUIRES DEBTOR’S AUTHORIZATION BEFORE DEBITING B2B DIRECT DEBITS IN THE ACCOUNT.\n"
+"                        THE DEBTOR WILL BE ABLE TO MANAGE THE MENTIONED AUTHORIZATION THROUGH THE MEANS PROVIDED BY HIS BANK."
+msgstr ""
+"УСІ ПОЛЯ Є ОБОВ'ЯЗКОВИМИ. ПІСЛЯ ПІДПИСАННЯ ЦЕЙ МАНДАТ НЕОБХІДНО НАДІСЛАТИ КРЕДИТОРУ ДЛЯ ЗБЕРІГАННЯ.\n"
+"                        ВОДНОЧАС БАНК БОРЖНИКА ВИМАГАЄ АВТОРИЗАЦІЇ БОРЖНИКА ПЕРЕД СПИСАННЯМ ПРЯМИХ ДЕБЕТОВИХ ПЛАТЕЖІВ B2B З РАХУНКУ.\n"
+"                        БОРЖНИК ЗМОЖЕ КЕРУВАТИ ЗАЗНАЧЕНОЮ АВТОРИЗАЦІЄЮ ЗАСОБАМИ, НАДАНИМИ ЙОГО БАНКОМ."
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,help:account_payment_sepa_direct_debit.field_account_payment_lot__mandate_required
+msgid ""
+"Activate this option if this payment method requires your customer to sign a"
+" direct debit mandate with your company."
+msgstr ""
+"Увімкніть цю опцію, якщо цей спосіб оплати вимагає від клієнта підписати з "
+"вашою компанією мандат на пряме дебетування."
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid ""
+"As part of your rights, you are entitled to a refund from\n"
+"                        your bank under the terms and conditions of your agreement\n"
+"                        with your bank.\n"
+"                        A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr ""
+"У межах ваших прав ви маєте право на повернення коштів\n"
+"                        вашим банком відповідно до умов угоди\n"
+"                        з банком.\n"
+"                        Вимогу про повернення потрібно подати протягом 8 тижнів від дати списання коштів із вашого рахунку."
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "By signing this mandate form, you authorise (A)"
+msgstr "Підписуючи цю форму мандата, ви дозволяєте (A)"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,help:account_payment_sepa_direct_debit.field_res_company__sepa_creditor_identifier
+#: model:ir.model.fields,help:account_payment_sepa_direct_debit.field_res_config_settings__sepa_creditor_identifier
+msgid ""
+"Enter the Creditor Identifier that has been attributed to your company to make SEPA Direct Debits. This identifier is composed of :\n"
+"- your country ISO code (2 letters)\n"
+"- a 2-digits checkum\n"
+"- a 3-letters business code\n"
+"- a country-specific identifier"
+msgstr ""
+"Введіть ідентифікатор кредитора, присвоєний вашій компанії для виконання прямого дебетування SEPA. Цей ідентифікатор складається з:\n"
+"- ISO-коду вашої країни (2 літери)\n"
+"- 2-значної контрольної суми\n"
+"- 3-літерного бізнес-коду\n"
+"- ідентифікатора, специфічного для країни"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.actions.server,name:account_payment_sepa_direct_debit.sdd_mandate_expire_cron_ir_actions_server
+msgid "Set SEPA Direct Debit Mandates to Expired"
+msgstr "Позначити мандати SEPA Direct Debit як прострочені"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid ""
+"This mandate is only intended for business-to-business transactions.\n"
+"                        You are not entitled to a refund from your bank after your account has\n"
+"                        been debited, but you are entitled to request your bank\n"
+"                        not to debit your account up until the day on which the payment is due."
+msgstr ""
+"Цей мандат призначений лише для операцій між підприємствами.\n"
+"                        Ви не маєте права на повернення коштів банком після списання з вашого рахунку,\n"
+"                        але маєте право звернутися до банку з вимогою\n"
+"                        не списувати кошти з вашого рахунку до дня настання строку платежу."
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "To be completed by the creditor"
+msgstr "Має бути заповнено кредитором"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid "To be completed by the debtor"
+msgstr "Має бути заповнено боржником"
+
+#. module: account_payment_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_payment_sepa_direct_debit.field_account_banking_mandate__unique_mandate_reference
+msgid "Unique Mandate Reference"
+msgstr "Унікальне посилання мандата"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.sepa_direct_debit_mandate_document
+msgid ""
+"to send instructions to your bank to debit your account and (B) your bank to\n"
+"                       debit your account in accordance with the instructions from"
+msgstr ""
+"надсилати своєму банку інструкції дебетувати ваш рахунок і (B) вашому банку\n"
+"                       дебетувати рахунок відповідно до інструкцій від"
