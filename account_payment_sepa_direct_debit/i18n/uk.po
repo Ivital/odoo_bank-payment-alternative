@@ -12,3 +12,8 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_account_payment_sepa_direct_debit
 msgid "Create SEPA files for Direct Debit"
 msgstr "Створення файлів SEPA для прямого дебетування"
+
+#. module: account_payment_sepa_direct_debit
+#: model_terms:ir.ui.view,arch_db:account_payment_sepa_direct_debit.view_mandate_form
+msgid "Print"
+msgstr "Друк"
